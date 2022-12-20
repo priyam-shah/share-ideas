@@ -1,0 +1,27 @@
+.Feedback {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.text_fb {
+  color: rgb(84, 95, 246);
+  margin: 2rem;
+  font-size: 8rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgb(61, 106, 117), -3px -3px 5px orange;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 800px) {
+  .Feedback {
+    margin: 2rem auto;
+    height: 80%;
+  }
+  .text_fb {
+    font-size: 5rem;
+  }
+}
